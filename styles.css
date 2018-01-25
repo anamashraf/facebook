@@ -1,0 +1,76 @@
+body { margin: 0; background-color: #edf0f5; }
+.container { display: block; width: 90%; margin: 0 auto; }
+.clear { clear: both; }
+
+.row { display: block; width: 100%; clear: both; }
+.col { float: left; }
+.col-pd { padding: 0 10px; }
+.col-20 { width: 16.66%; }
+.col-30 { width: 25%; }
+.col-40 { width: 33.33%; }
+.col-50 { width: 49%; }
+.col-60 { width: 60%; }
+.col-70 { width: 69%; }
+.col-100 { width: 100%; }
+
+
+.header {
+  display: block;
+  width: 100%;
+  height: 82px;
+  color: white;
+  background-color: #3b5998;
+}
+
+.logo {
+  display: inline-block;
+  float: left;
+}
+.login-form { padding: 20px; }
+
+.body {
+  width: 80%;
+  margin: 0 auto;
+}
+.info { display: block; height: 100px }
+.heading { font-size: 17px; line-height: 22px; font-weight: bold; padding: 0 10px; margin-top: -10px; }
+
+.register-form a { color: #365899; }
+.register-form p { color: #777; font-size: 11px; margin-top: 10px; }
+.register-form input, .register-form select {
+  border-color: #bdc7d8;
+  background-color: white;
+  border-radius: 5px;
+  font-size: 18px;
+  padding: 8px 10px;
+  float: left;
+  margin-top: 10px;
+}
+.lg { width: 100%; }
+.sm { width: 90%; }
+.pull-right { float: right; }
+.register-form .radio { padding: 0; margin: 0; }
+.register-form .create-btn {
+  font-size: 19px;
+  color: white;
+  padding: 7px 20px;
+  text-align: center;
+  background-color: #69a74e;
+  border: 1px solid;
+  border-radius: 5px;
+}
+
+.footer {
+  text-align: center;
+  display: block;
+  min-height: 200px;
+  background-color: white;
+  margin-top: 100px;
+}
+.footer .container {
+  width: 65%; margin: 0 auto;
+}
+.footer nav a {
+  color: #365899;
+}
+.copyright { float: left; }
